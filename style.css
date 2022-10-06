@@ -1,0 +1,47 @@
+nav.container1 {position: sticky;
+    top: 0px;
+    padding: 3px;
+    border: 3px solid gray;
+    background-color: lightcoral;}
+a.pseudo:hover {
+        color: darkkhaki;}
+.button {background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    padding: 5px;
+    margin-top: 50px;}
+.header>h1 {background-color: cornflowerblue;
+    color: purple;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+#font>a {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellowgreen;
+    font-size: 11px;
+    position: absolute;}
+#border {font-size: 55px;
+    border: 10px solid seagreen;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 5px;
+    margin-top: 100px;
+    margin-bottom: 10px;}
+p, nav {text-align: center;}
+@keyframes div {from{background-color: aquamarine; text-align: left;}
+to{background-color: goldenrod; text-align: right;}}
+div {animation-name: div;
+    animation-duration: 5s;}
+/*
+a.pseudo:visited {color: lightblue;}
+a.pseudo:hover {color: red;}
+a.pseudo:active {color: green;}
+div.postion {position: absolute;
+left:100px;
+right: 200px;
+top: 500px;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+
+nav.sticky {position: sticky;
+top: 0px;
+padding: 3px;
+background-color: blue;
+border: 3px solid gray;}
