@@ -1,4 +1,16 @@
-nav.container1 {position: sticky;
+nav, footer.sticky {position: sticky;
+    top: 0px;
+    padding: 3px;
+    background-color: lightseagreen;
+    border: 3px solid gray;
+    text-align: center;}
+.hover:hover {color: whitesmoke}
+.heading1 {color: lightseagreen; text-align: center; padding: 3px; background-color: whitesmoke; border: 3px solid gray;}
+.all {background-color: blanchedalmond;}
+.images {padding-top: 15px; padding-bottom: 10px; padding-left: 10px;}
+.button {background-color: red; color: whitesmoke; border: whitesmoke;}
+#petlink:hover {color: gray}
+/*  nav.container1 {position: sticky;
     top: 0px;
     padding: 3px;
     border: 3px solid gray;
@@ -27,10 +39,10 @@ a.pseudo:hover {
     margin-bottom: 10px;}
 p, nav {text-align: center;}
 @keyframes div {from{background-color: aquamarine; text-align: left;}
-to{background-color: goldenrod; text-align: right;}}
+    to{background-color: goldenrod; text-align: right;}}
 div {animation-name: div;
     animation-duration: 5s;}
-/*
+
 a.pseudo:visited {color: lightblue;}
 a.pseudo:hover {color: red;}
 a.pseudo:active {color: green;}
